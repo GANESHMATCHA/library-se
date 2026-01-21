@@ -37,3 +37,46 @@ The system uses **in-memory data structures only** and does not use any database
 
 ## Project Structure
 
+library-se/
+│
+├── src/
+│ └── library.py
+│
+├── tests/
+│ └── test_library.py
+│
+├── docs/
+│ ├── USER_STORIES.md
+│ └── TRACEABILITY.md
+│
+├── README.md
+└── .gitignore
+
+---
+
+## Sprint-wise Implementation
+
+### Sprint 1
+- Book registration implemented
+- Duplicate Book IDs rejected
+- Tag: v0.1
+
+### Sprint 2
+- Borrow and return functionality implemented
+- Validation for unavailable books
+- Tag: v0.2
+
+### Sprint 3
+- Library report generation implemented
+- Tag: v0.3
+
+---
+
+## Running Unit Tests
+
+Run the following command:
+
+```bash
+python -m unittest discover -s tests -p "test_*.py" -v
+
+
